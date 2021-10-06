@@ -46,3 +46,39 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* modifications below */
+
+
+.left-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin: 8px;
+  align-items: center;
+}
+
+.right-container {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 12px;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: auto;
+}
